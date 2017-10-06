@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		278E3D241EFE2D7C00917F6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 278E3D231EFE2D7C00917F6F /* main.m */; };
+		278E3D271EFE2D7C00917F6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 278E3D261EFE2D7C00917F6F /* AppDelegate.m */; };
+		278E3D2A1EFE2D7C00917F6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278E3D291EFE2D7C00917F6F /* ViewController.m */; };
+		278E3D2D1EFE2D7C00917F6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278E3D2B1EFE2D7C00917F6F /* Main.storyboard */; };
+		278E3D2F1EFE2D7C00917F6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278E3D2E1EFE2D7C00917F6F /* Assets.xcassets */; };
+		278E3D321EFE2D7C00917F6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278E3D301EFE2D7C00917F6F /* LaunchScreen.storyboard */; };
+		278E3D3D1EFE2D7C00917F6F /* DiscountCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 278E3D3C1EFE2D7C00917F6F /* DiscountCalculatorTests.m */; };
+		278E3D481EFE2D7C00917F6F /* DiscountCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 278E3D471EFE2D7C00917F6F /* DiscountCalculatorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		278E3D391EFE2D7C00917F6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 278E3D171EFE2D7C00917F6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 278E3D1E1EFE2D7C00917F6F;
+			remoteInfo = DiscountCalculator;
+		};
+		278E3D441EFE2D7C00917F6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 278E3D171EFE2D7C00917F6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 278E3D1E1EFE2D7C00917F6F;
+			remoteInfo = DiscountCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		278E3D1F1EFE2D7C00917F6F /* DiscountCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscountCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		278E3D231EFE2D7C00917F6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		278E3D251EFE2D7C00917F6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		278E3D261EFE2D7C00917F6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		278E3D281EFE2D7C00917F6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		278E3D291EFE2D7C00917F6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		278E3D2C1EFE2D7C00917F6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		278E3D2E1EFE2D7C00917F6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		278E3D311EFE2D7C00917F6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		278E3D331EFE2D7C00917F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278E3D381EFE2D7C00917F6F /* DiscountCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscountCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		278E3D3C1EFE2D7C00917F6F /* DiscountCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscountCalculatorTests.m; sourceTree = "<group>"; };
+		278E3D3E1EFE2D7C00917F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278E3D431EFE2D7C00917F6F /* DiscountCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscountCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		278E3D471EFE2D7C00917F6F /* DiscountCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscountCalculatorUITests.m; sourceTree = "<group>"; };
+		278E3D491EFE2D7C00917F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		278E3D1C1EFE2D7C00917F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278E3D351EFE2D7C00917F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278E3D401EFE2D7C00917F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		278E3D161EFE2D7C00917F6F = {
+			isa = PBXGroup;
+			children = (
+				278E3D211EFE2D7C00917F6F /* DiscountCalculator */,
+				278E3D3B1EFE2D7C00917F6F /* DiscountCalculatorTests */,
+				278E3D461EFE2D7C00917F6F /* DiscountCalculatorUITests */,
+				278E3D201EFE2D7C00917F6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		278E3D201EFE2D7C00917F6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				278E3D1F1EFE2D7C00917F6F /* DiscountCalculator.app */,
+				278E3D381EFE2D7C00917F6F /* DiscountCalculatorTests.xctest */,
+				278E3D431EFE2D7C00917F6F /* DiscountCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		278E3D211EFE2D7C00917F6F /* DiscountCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				278E3D251EFE2D7C00917F6F /* AppDelegate.h */,
+				278E3D261EFE2D7C00917F6F /* AppDelegate.m */,
+				278E3D281EFE2D7C00917F6F /* ViewController.h */,
+				278E3D291EFE2D7C00917F6F /* ViewController.m */,
+				278E3D2B1EFE2D7C00917F6F /* Main.storyboard */,
+				278E3D2E1EFE2D7C00917F6F /* Assets.xcassets */,
+				278E3D301EFE2D7C00917F6F /* LaunchScreen.storyboard */,
+				278E3D331EFE2D7C00917F6F /* Info.plist */,
+				278E3D221EFE2D7C00917F6F /* Supporting Files */,
+			);
+			path = DiscountCalculator;
+			sourceTree = "<group>";
+		};
+		278E3D221EFE2D7C00917F6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				278E3D231EFE2D7C00917F6F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		278E3D3B1EFE2D7C00917F6F /* DiscountCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				278E3D3C1EFE2D7C00917F6F /* DiscountCalculatorTests.m */,
+				278E3D3E1EFE2D7C00917F6F /* Info.plist */,
+			);
+			path = DiscountCalculatorTests;
+			sourceTree = "<group>";
+		};
+		278E3D461EFE2D7C00917F6F /* DiscountCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				278E3D471EFE2D7C00917F6F /* DiscountCalculatorUITests.m */,
+				278E3D491EFE2D7C00917F6F /* Info.plist */,
+			);
+			path = DiscountCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		278E3D1E1EFE2D7C00917F6F /* DiscountCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278E3D4C1EFE2D7C00917F6F /* Build configuration list for PBXNativeTarget "DiscountCalculator" */;
+			buildPhases = (
+				278E3D1B1EFE2D7C00917F6F /* Sources */,
+				278E3D1C1EFE2D7C00917F6F /* Frameworks */,
+				278E3D1D1EFE2D7C00917F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiscountCalculator;
+			productName = DiscountCalculator;
+			productReference = 278E3D1F1EFE2D7C00917F6F /* DiscountCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		278E3D371EFE2D7C00917F6F /* DiscountCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278E3D4F1EFE2D7C00917F6F /* Build configuration list for PBXNativeTarget "DiscountCalculatorTests" */;
+			buildPhases = (
+				278E3D341EFE2D7C00917F6F /* Sources */,
+				278E3D351EFE2D7C00917F6F /* Frameworks */,
+				278E3D361EFE2D7C00917F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				278E3D3A1EFE2D7C00917F6F /* PBXTargetDependency */,
+			);
+			name = DiscountCalculatorTests;
+			productName = DiscountCalculatorTests;
+			productReference = 278E3D381EFE2D7C00917F6F /* DiscountCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		278E3D421EFE2D7C00917F6F /* DiscountCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278E3D521EFE2D7C00917F6F /* Build configuration list for PBXNativeTarget "DiscountCalculatorUITests" */;
+			buildPhases = (
+				278E3D3F1EFE2D7C00917F6F /* Sources */,
+				278E3D401EFE2D7C00917F6F /* Frameworks */,
+				278E3D411EFE2D7C00917F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				278E3D451EFE2D7C00917F6F /* PBXTargetDependency */,
+			);
+			name = DiscountCalculatorUITests;
+			productName = DiscountCalculatorUITests;
+			productReference = 278E3D431EFE2D7C00917F6F /* DiscountCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		278E3D171EFE2D7C00917F6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Yunxi;
+				TargetAttributes = {
+					278E3D1E1EFE2D7C00917F6F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					278E3D371EFE2D7C00917F6F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 278E3D1E1EFE2D7C00917F6F;
+					};
+					278E3D421EFE2D7C00917F6F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 278E3D1E1EFE2D7C00917F6F;
+					};
+				};
+			};
+			buildConfigurationList = 278E3D1A1EFE2D7C00917F6F /* Build configuration list for PBXProject "DiscountCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 278E3D161EFE2D7C00917F6F;
+			productRefGroup = 278E3D201EFE2D7C00917F6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				278E3D1E1EFE2D7C00917F6F /* DiscountCalculator */,
+				278E3D371EFE2D7C00917F6F /* DiscountCalculatorTests */,
+				278E3D421EFE2D7C00917F6F /* DiscountCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		278E3D1D1EFE2D7C00917F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278E3D321EFE2D7C00917F6F /* LaunchScreen.storyboard in Resources */,
+				278E3D2F1EFE2D7C00917F6F /* Assets.xcassets in Resources */,
+				278E3D2D1EFE2D7C00917F6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278E3D361EFE2D7C00917F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278E3D411EFE2D7C00917F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		278E3D1B1EFE2D7C00917F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278E3D2A1EFE2D7C00917F6F /* ViewController.m in Sources */,
+				278E3D271EFE2D7C00917F6F /* AppDelegate.m in Sources */,
+				278E3D241EFE2D7C00917F6F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278E3D341EFE2D7C00917F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278E3D3D1EFE2D7C00917F6F /* DiscountCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278E3D3F1EFE2D7C00917F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278E3D481EFE2D7C00917F6F /* DiscountCalculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		278E3D3A1EFE2D7C00917F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 278E3D1E1EFE2D7C00917F6F /* DiscountCalculator */;
+			targetProxy = 278E3D391EFE2D7C00917F6F /* PBXContainerItemProxy */;
+		};
+		278E3D451EFE2D7C00917F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 278E3D1E1EFE2D7C00917F6F /* DiscountCalculator */;
+			targetProxy = 278E3D441EFE2D7C00917F6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		278E3D2B1EFE2D7C00917F6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278E3D2C1EFE2D7C00917F6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		278E3D301EFE2D7C00917F6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278E3D311EFE2D7C00917F6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		278E3D4A1EFE2D7C00917F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		278E3D4B1EFE2D7C00917F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		278E3D4D1EFE2D7C00917F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiscountCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yunxi.DiscountCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		278E3D4E1EFE2D7C00917F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiscountCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yunxi.DiscountCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		278E3D501EFE2D7C00917F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiscountCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yunxi.DiscountCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscountCalculator.app/DiscountCalculator";
+			};
+			name = Debug;
+		};
+		278E3D511EFE2D7C00917F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiscountCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yunxi.DiscountCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscountCalculator.app/DiscountCalculator";
+			};
+			name = Release;
+		};
+		278E3D531EFE2D7C00917F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiscountCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yunxi.DiscountCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiscountCalculator;
+			};
+			name = Debug;
+		};
+		278E3D541EFE2D7C00917F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiscountCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yunxi.DiscountCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiscountCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		278E3D1A1EFE2D7C00917F6F /* Build configuration list for PBXProject "DiscountCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278E3D4A1EFE2D7C00917F6F /* Debug */,
+				278E3D4B1EFE2D7C00917F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		278E3D4C1EFE2D7C00917F6F /* Build configuration list for PBXNativeTarget "DiscountCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278E3D4D1EFE2D7C00917F6F /* Debug */,
+				278E3D4E1EFE2D7C00917F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		278E3D4F1EFE2D7C00917F6F /* Build configuration list for PBXNativeTarget "DiscountCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278E3D501EFE2D7C00917F6F /* Debug */,
+				278E3D511EFE2D7C00917F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		278E3D521EFE2D7C00917F6F /* Build configuration list for PBXNativeTarget "DiscountCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278E3D531EFE2D7C00917F6F /* Debug */,
+				278E3D541EFE2D7C00917F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 278E3D171EFE2D7C00917F6F /* Project object */;
+}
